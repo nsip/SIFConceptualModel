@@ -13,7 +13,7 @@ For clarity, the conceptual model is broken up into use cases:
 - [Timetable/Attendance](#timetableattendance)
 - [Finance/Resources](#financeresources)
 - [NAPLAN](#naplan)
-- [Wellbeing](wellbeing)
+- [Wellbeing](#wellbeing)
 - [Classroom Assessment](#classroomassessment)
 - [Scheduling](#scheduling)
 - [Statistics](#statistics)
