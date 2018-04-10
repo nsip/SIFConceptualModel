@@ -9,13 +9,15 @@ This document proposes a conceptual model underlying the SIF-AU 3.4.3 data model
 For clarity, the conceptual model is broken up into use cases:
 
 - [Enrolment](#enrolment)
-- Provisioning
-- Timetable/Attendance
-- Finance/Resources
-- NAPLAN
-- Wellbeing
-- Classroom Assessment
-- Remainder
+- [Provisioning](#provisioning
+- [Timetable/Attendance](#timetableattendance)
+- [Finance/Resources](#financeresources)
+- [NAPLAN](#naplan)
+- [Wellbeing](wellbeing)
+- [Classroom Assessment](#classroomassessment)
+- [Scheduling](#scheduling)
+- [Statistics](#statistics)
+- [Teaching & Learning](#teachinglearning)
 
 Entities are named with names that the schools sector business can relate to readily, rather than the current names of SIF-AU objects. A list mapping the conceptual model names to SIF objects follows.
 
@@ -31,48 +33,59 @@ The following includes secondary objects which may also be invoked during studen
 
   ![](Enrolment2.png)
 
+
+<a name="provisioning"></a>
 # Provisioning
 
 The grey arrows point to superclasses; e.g. Party is a superclass of Teacher, Parent, and Student. The dotted entity Party is not represented separately in the SIF-AU data model; a common type contains Personal information.
 
   ![](Provisioning.png)
 
+<a name="timetableattendance"></a>
 # Timetable/Attendance
 
   ![](TimetableAttendance.png)
-
+  
+  
+<a name="financeresources"></a>
 # Finance/Resources
 
 The grey arrows point to superclasses; e.g. Debtor is a superclass of Vendor. The dotted entities, Invoicee and Transaction, are not represented separately in the SIF-AU data model; they are realised through a choice of links to their subclass objects.
 
   ![](FinanceResources.png)
 
+<a name="naplan"></a>
 # NAPLAN
 
   ![](NAPLAN.png)
 
+<a name="wellbeing"></a>
 # Wellbeing
 
 The entities in the Wellbeing Usecase are densely interrelated; an Individualised Plan, for example, can draw on all of Behaviour Events, Alerts, and Wellbeing Characteristics. The relations indicated here are not an exhaustive list, and some relations have been left out for clarity.
 
   ![](Wellbeing.png)
 
+<a name="classroomassessment"></a>
 # Classroom Assessment
 
   ![](Gradebook.png)
 
+<a name="scheduling"></a>
 # Scheduling
 
 The grey arrows point to superclasses; e.g. Resource is a superclass of Room and Learning Resource. The dotted entity Resource is not represented separately in the SIF-AU data model; it is realised through a choice of links to their subclass objects.
 
   ![](Scheduling.png)
 
+<a name="statistics"></a>
 # Statistics
 
 The greyed out objects are of secondary importance to the specification, and have been little used to date.
 
   ![](Statistics.png)
 
+<a name="teachinglearning"></a>
 # Teaching & Learning
 
 The greyed out objects are of secondary importance to the specification, and have been little used to date.
