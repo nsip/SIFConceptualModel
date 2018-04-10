@@ -33,7 +33,7 @@ The following includes secondary objects which may also be invoked during studen
 
   ![](Enrolment2.png)
   
-### Enrolment - entities
+### Enrolment - list of entities
 
 Relations which map to SIF objects are given in lowercase and italicised.
   
