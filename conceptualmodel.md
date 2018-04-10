@@ -89,7 +89,23 @@ Relations which map to SIF objects are given in lowercase and italicised.
 
   ![](TimetableAttendance.png)
   
-  
+### Timetable/Attendance - list of entities
+
+Relations which map to SIF objects are given in lowercase and italicised.   
+
+| **Conceptual** | **SIF-AU** |
+| --- | --- |
+| _attendance marked for_ | Period: StudentPeriodAttendance; Calendar Day: StudentDailyAttendance, StudentAttendanceTimeList; reporting object: StudentAttendanceSummary |
+| Calendar | CalendarSummary |
+| Class | TeachingGroup; SectionInfo |
+| Day | CalendarDate |
+| Period | TimeTableCell |
+| Scheduled Activity | ScheduledActivity |
+| School | SchoolInfo |
+| Student | StudentPersonal |
+| Teacher | StaffPersonal |
+| TimeTable | TimeTable |
+
 <a name="financeresources"></a>
 # Finance/Resources
 
