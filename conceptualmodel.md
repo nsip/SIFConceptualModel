@@ -8,7 +8,7 @@ This document proposes a conceptual model underlying the SIF-AU 3.4.3 data model
 
 For clarity, the conceptual model is broken up into use cases:
 
-- Enrolment
+- [Enrolment](#enrolment)
 - Provisioning
 - Timetable/Attendance
 - Finance/Resources
@@ -19,6 +19,8 @@ For clarity, the conceptual model is broken up into use cases:
 
 Entities are named with names that the schools sector business can relate to readily, rather than the current names of SIF-AU objects. A list mapping the conceptual model names to SIF objects follows.
 
+
+<a name="enrolment"></a>
 # Enrolment
 
 The following are the primary objects involved in enrolling a student onto school systems.
