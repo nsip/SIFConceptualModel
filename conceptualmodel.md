@@ -32,6 +32,30 @@ The following are the primary objects involved in enrolling a student onto schoo
 The following includes secondary objects which may also be invoked during student enrolment (shaded grey).
 
   ![](Enrolment2.png)
+  
+### Enrolment - entities
+
+Relations which map to SIF objects are given in lowercase and italicised.
+  
+| **Conceptual** | **SIF-AU** |
+| --- | --- |
+| School | SchoolInfo |
+| Student | StudentPersonal |
+| _enrolls_ | StudentSchoolEnrolment |
+| Teacher | StaffPersonal |
+| _assigns role_ | StaffAssignment |
+| Parent/Student Contact | StudentPersonalContact |
+| _relationship with_ | StudentPersonalRelationship |
+| Class | TeachingGroup; SectionInfo |
+| Subject | TimeTableSubject |
+| Period | TimeTableCell |
+| Room | RoomInfo |
+| Term | TermInfo |
+| Course | SchoolCourseInfo [relations coded redundantly with Class] |
+| Program | SchoolPrograms |
+| _participates_ | Program: StudentParticipation; Co-Curricular Activity: StudentActivityParticipation |
+| Co-Curricular Activity | StudentActivityInfo |
+| Education Authority | LEAInfo |
 
 
 <a name="provisioning"></a>
