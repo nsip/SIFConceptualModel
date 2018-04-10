@@ -9,7 +9,7 @@ This document proposes a conceptual model underlying the SIF-AU 3.4.3 data model
 For clarity, the conceptual model is broken up into use cases:
 
 - [Enrolment](#enrolment)
-- [Provisioning](#provisioning
+- [Provisioning](#provisioning)
 - [Timetable/Attendance](#timetableattendance)
 - [Finance/Resources](#financeresources)
 - [NAPLAN](#naplan)
