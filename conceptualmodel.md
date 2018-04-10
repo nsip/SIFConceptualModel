@@ -39,23 +39,23 @@ Relations which map to SIF objects are given in lowercase and italicised.
   
 | **Conceptual** | **SIF-AU** |
 | --- | --- |
+| _assigns role_ | StaffAssignment |
+| Class | TeachingGroup; SectionInfo |
+| Co-Curricular Activity | StudentActivityInfo |
+| Course | SchoolCourseInfo [relations coded redundantly with Class] |
+| Education Authority | LEAInfo |
+| _enrolls_ | StudentSchoolEnrolment |
+| Parent/Student Contact | StudentPersonalContact |
+| _participates_ | Program: StudentParticipation; Co-Curricular Activity: StudentActivityParticipation |
+| Period | TimeTableCell |
+| Program | SchoolPrograms |
+| _relationship with_ | StudentPersonalRelationship |
+| Room | RoomInfo |
 | School | SchoolInfo |
 | Student | StudentPersonal |
-| _enrolls_ | StudentSchoolEnrolment |
-| Teacher | StaffPersonal |
-| _assigns role_ | StaffAssignment |
-| Parent/Student Contact | StudentPersonalContact |
-| _relationship with_ | StudentPersonalRelationship |
-| Class | TeachingGroup; SectionInfo |
 | Subject | TimeTableSubject |
-| Period | TimeTableCell |
-| Room | RoomInfo |
+| Teacher | StaffPersonal |
 | Term | TermInfo |
-| Course | SchoolCourseInfo [relations coded redundantly with Class] |
-| Program | SchoolPrograms |
-| _participates_ | Program: StudentParticipation; Co-Curricular Activity: StudentActivityParticipation |
-| Co-Curricular Activity | StudentActivityInfo |
-| Education Authority | LEAInfo |
 
 
 <a name="provisioning"></a>
