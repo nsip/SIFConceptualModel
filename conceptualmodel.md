@@ -64,6 +64,25 @@ Relations which map to SIF objects are given in lowercase and italicised.
 The grey arrows point to superclasses; e.g. Party is a superclass of Teacher, Parent, and Student. The dotted entity Party is not represented separately in the SIF-AU data model; a common type contains Personal information.
 
   ![](Provisioning.png)
+  
+### Provisioning - list of entities
+
+Relations which map to SIF objects are given in lowercase and italicised.  
+  
+| **Conceptual** | **SIF-AU** |
+| --- | --- |
+| _assigns role_ | StaffAssignment |
+| _enrolls_ | StudentSchoolEnrolment |
+| Identity | Identity |
+| Parent/Student Contact | StudentPersonalContact |
+| Picture | PersonPicture |
+| _relationship with_ | StudentPersonalRelationship |
+| _role_ | SystemRole |
+| School | SchoolInfo |
+| Student | StudentPersonal |
+| Teacher | StaffPersonal |
+
+
 
 <a name="timetableattendance"></a>
 # Timetable/Attendance
