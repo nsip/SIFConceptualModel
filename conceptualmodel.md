@@ -138,6 +138,21 @@ Relations which map to SIF objects are given in lowercase and italicised.
 # NAPLAN
 
   ![](NAPLAN.png)
+  
+### NAPLAN - list of entities
+
+Relations which map to SIF objects are given in lowercase and italicised.   
+
+| **Conceptual** | **SIF-AU** |
+| --- | --- |  
+| NAP Codeframe | NAPCodeFrame |
+| NAP Item | NAPTestItem |
+| NAP Results | NAPStudentResponseSet, reporting object: NAPTestScoreSummary |
+| NAP Test | NAPTest |
+| NAP Testlet | NAPTestlet |
+| registers for | NAPEventStudentLink |
+| School | SchoolInfo |
+| Student | StudentPersonal |
 
 <a name="wellbeing"></a>
 # Wellbeing
