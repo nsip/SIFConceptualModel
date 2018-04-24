@@ -150,7 +150,7 @@ Relations which map to SIF objects are given in lowercase and italicised.
 | NAP Results | NAPStudentResponseSet, reporting object: NAPTestScoreSummary |
 | NAP Test | NAPTest |
 | NAP Testlet | NAPTestlet |
-| registers for | NAPEventStudentLink |
+| _registers for_ | NAPEventStudentLink |
 | School | SchoolInfo |
 | Student | StudentPersonal |
 
