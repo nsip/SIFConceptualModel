@@ -112,6 +112,27 @@ Relations which map to SIF objects are given in lowercase and italicised.
 The grey arrows point to superclasses; e.g. Debtor is a superclass of Vendor. The dotted entities, Invoicee and Transaction, are not represented separately in the SIF-AU data model; they are realised through a choice of links to their subclass objects.
 
   ![](FinanceResources.png)
+  
+  
+### Finance/Resources - list of entities
+
+Relations which map to SIF objects are given in lowercase and italicised.   
+
+| **Conceptual** | **SIF-AU** |
+| --- | --- |  
+| Account | FinancialAccount |
+| Charged Location | ChargedLocation |
+| Debtor | Debtor |
+| Equipment | EquipmentInfo |
+| Invoice | Invoice |
+| Journal | Journal |
+| Parent | StudentPersonalContact |
+| Purchase Order | PurchaseOrder |
+| Receipt | PaymentReceipt |
+| Resource usage | ResourceUsage |
+| School | Schoolinfo |
+| Teacher/Staff | StaffPersonal |
+| Vendor | VendorInfo |
 
 <a name="naplan"></a>
 # NAPLAN
