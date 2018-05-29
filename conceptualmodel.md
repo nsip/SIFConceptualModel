@@ -189,7 +189,7 @@ Relations which map to SIF objects are given in lowercase and italicised.
 | Student | StudentPersonal |
 | Staff | StaffPersonal |
 | Grade | StudentGrade |
-| Assignment Score | 
+| Assignment Score | GradingAssignmentScore |
 | Grading Assignment | GradingAssignmentScore |
 | Learning Standard | LearningStandardItem |
 | Class | TeachingGroup |
