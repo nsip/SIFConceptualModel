@@ -167,13 +167,13 @@ Relations which map to SIF objects are given in lowercase and italicised.
 
 | **Conceptual** | **SIF-AU** |
 | --- | --- |  
-| Wellbeing Response  | WellbeingResponse |
-| Wellbeing Alert | WellbeingAlert |
-| Wellbeing Event | WellbeingEvent |
-| Student | StudentPersonal |
-| Staff | StaffPersonal |
 | Personalised Student Plan | PersonalisedPlan |
+| Staff | StaffPersonal |
+| Student | StudentPersonal |
+| Wellbeing Alert | WellbeingAlert |
 | Wellbeing Characteristic | WellbeingCharacteristic |
+| Wellbeing Event | WellbeingEvent |
+| Wellbeing Response  | WellbeingResponse |
 
 <a name="classroomassessment"></a>
 # Classroom Assessment
@@ -186,13 +186,13 @@ Relations which map to SIF objects are given in lowercase and italicised.
 
 | **Conceptual** | **SIF-AU** |
 | --- | --- |  
-| Student | StudentPersonal |
-| Staff | StaffPersonal |
-| Grade | StudentGrade |
 | Assignment Score | GradingAssignmentScore |
+| Class | TeachingGroup |
+| Grade | StudentGrade |
 | Grading Assignment | GradingAssignmentScore |
 | Learning Standard | LearningStandardItem |
-| Class | TeachingGroup |
+| Student | StudentPersonal |
+| Staff | StaffPersonal |
 
 <a name="scheduling"></a>
 # Scheduling
