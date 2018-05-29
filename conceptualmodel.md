@@ -237,6 +237,19 @@ Relations which map to SIF objects are given in lowercase and italicised.
 The greyed out objects are of secondary importance to the specification, and have been little used to date.
 
   ![](TeachingLearning.png)
+  
+### Enrolment - list of entities
+
+Relations which map to SIF objects are given in lowercase and italicised.
+  
+| **Conceptual** | **SIF-AU** |
+| --- | --- |
+| Learning Resource | LearningResource |
+| Learning Resource Package | LearningResourcePackage |
+| Student | StudentPersonal |
+| Learning Activity | Activity |
+| Learning Standard | LearningStandardItem |
+| Curriculum | LearningStandardDocument |
 
 # Mappings of Conceptual Model to SIF data model
 
