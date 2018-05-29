@@ -275,7 +275,7 @@ Relations which map to SIF objects are given in lowercase and italicised.
 | Learning Standard | LearningStandardItem |
 | Curriculum | LearningStandardDocument |
 | Learning Resource | LearningResource |
-| Learning Resource Package | Learning Resource Package |
+| Learning Resource Package | LearningResourcePackage |
 | Equipment | EquipmentInfo |
 | Resource Usage | ResourceUsage |
 | Statistical Measurement | AggregateStatisticInfo |
