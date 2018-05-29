@@ -179,6 +179,20 @@ Relations which map to SIF objects are given in lowercase and italicised.
 # Classroom Assessment
 
   ![](Gradebook.png)
+  
+  ### Classroom Assessment - list of entities
+
+Relations which map to SIF objects are given in lowercase and italicised.   
+
+| **Conceptual** | **SIF-AU** |
+| --- | --- |  
+| Student | StudentPersonal |
+| Staff | StaffPersonal |
+| Grade | StudentGrade |
+| Assignment Score | 
+| Grading Assignment | GradingAssignmentScore |
+| Learning Standard | LearningStandardItem |
+| Class | TeachingGroup |
 
 <a name="scheduling"></a>
 # Scheduling
