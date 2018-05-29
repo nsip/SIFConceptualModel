@@ -160,6 +160,13 @@ Relations which map to SIF objects are given in lowercase and italicised.
 The entities in the Wellbeing Usecase are densely interrelated; an Individualised Plan, for example, can draw on all of Behaviour Events, Alerts, and Wellbeing Characteristics. The relations indicated here are not an exhaustive list, and some relations have been left out for clarity.
 
   ![](Wellbeing.png)
+  
+### Wellbeing - list of entities
+
+Relations which map to SIF objects are given in lowercase and italicised.   
+
+| **Conceptual** | **SIF-AU** |
+| --- | --- |  
 
 <a name="classroomassessment"></a>
 # Classroom Assessment
