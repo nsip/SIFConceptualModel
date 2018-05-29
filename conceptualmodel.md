@@ -219,6 +219,16 @@ Relations which map to SIF objects are given in lowercase and italicised.
 The greyed out objects are of secondary importance to the specification, and have been little used to date.
 
   ![](Statistics.png)
+  
+  ### Statistics - list of entities
+
+Relations which map to SIF objects are given in lowercase and italicised.
+  
+| **Conceptual** | **SIF-AU** |
+| --- | --- |
+| Statistical Measurement | AggregateStatisticInfo |
+| Statistical Value | AggregateStatisticFact |
+| Statistical Characteristic | AggregateCharacteristic |
 
 <a name="teachinglearning"></a>
 # Teaching & Learning
