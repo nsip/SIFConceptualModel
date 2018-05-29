@@ -207,11 +207,11 @@ Relations which map to SIF objects are given in lowercase and italicised.
   
 | **Conceptual** | **SIF-AU** |
 | --- | --- |
-| Scheduled Activity | ScheduledActivity |
-| Teacher | StaffPersonal |
+| Learning Resource | LearningResource |
 | Period | TimeTableCell |
 | Room | RoomInfo |
-| Learning Resource | LearningResource |
+| Scheduled Activity | ScheduledActivity |
+| Teacher | StaffPersonal |
 
 <a name="statistics"></a>
 # Statistics
