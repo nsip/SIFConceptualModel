@@ -180,7 +180,7 @@ Relations which map to SIF objects are given in lowercase and italicised.
 
   ![](Gradebook.png)
   
-  ### Classroom Assessment - list of entities
+### Classroom Assessment - list of entities
 
 Relations which map to SIF objects are given in lowercase and italicised.   
 
@@ -200,6 +200,18 @@ Relations which map to SIF objects are given in lowercase and italicised.
 The grey arrows point to superclasses; e.g. Resource is a superclass of Room and Learning Resource. The dotted entity Resource is not represented separately in the SIF-AU data model; it is realised through a choice of links to their subclass objects.
 
   ![](Scheduling.png)
+  
+### Scheduling - list of entities
+
+Relations which map to SIF objects are given in lowercase and italicised.
+  
+| **Conceptual** | **SIF-AU** |
+| --- | --- |
+| Scheduled Activity | ScheduledActivity |
+| Teacher | StaffPersonal |
+| Period | TimeTableCell |
+| Room | RoomInfo |
+| Learning Resource | LearningResource |
 
 <a name="statistics"></a>
 # Statistics
