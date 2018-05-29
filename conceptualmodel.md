@@ -167,6 +167,13 @@ Relations which map to SIF objects are given in lowercase and italicised.
 
 | **Conceptual** | **SIF-AU** |
 | --- | --- |  
+| Wellbeing Response  | WellbeingResponse |
+| Wellbeing Alert | WellbeingAlert |
+| Wellbeing Event | WellbeingEvent |
+| Student | StudentPersonal |
+| Staff | StaffPersonal |
+| Personalised Student Plan | PersonalisedPlan |
+| Wellbeing Characteristic | WellbeingCharacteristic |
 
 <a name="classroomassessment"></a>
 # Classroom Assessment
