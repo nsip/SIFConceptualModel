@@ -57,6 +57,13 @@ Relations which map to SIF objects are given in lowercase and italicised.
 | Teacher | StaffPersonal |
 | Term | TermInfo |
 
+### Enrolment - description of relations
+
+The following maps the relations captured in the conceptual model to sets of SIF-AU objects.
+
+| **Conceptual** | **SIF-AU** |
+| --- | --- |
+
 
 <a name="provisioning"></a>
 # Provisioning
